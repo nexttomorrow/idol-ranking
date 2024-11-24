@@ -7,7 +7,7 @@ function FloatingButton({ onClick, isOpen }) {
       <button
         onClick={onClick}
         className={`flex items-center justify-center gap-2
-                   h-14 ${isOpen ? 'w-14' : 'w-auto px-6'}
+                   h-14 ${isOpen ? 'w-14' : 'w-auto px-4'}
                    bg-[#15192B]/95 backdrop-blur-sm
                    text-purple-400
                    rounded-full 
