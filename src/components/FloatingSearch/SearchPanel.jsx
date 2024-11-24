@@ -1,16 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { rankingData } from '../../data/rankingData';
 
 function SearchPanel({ isOpen, onClose, onSelectIdol }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    if (isOpen && inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [isOpen]);
 
   useEffect(() => {
     if (searchTerm) {
+      const normalizedSearchTerm = searchTerm.toLowerCase();
       const results = rankingData.filter(idol =>
-        idol.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        idol.company.toLowerCase().includes(searchTerm.toLowerCase())
+        idol.name.toLowerCase().includes(normalizedSearchTerm) ||
+        idol.company.toLowerCase().includes(normalizedSearchTerm) ||
+        idol.description.toLowerCase().includes(normalizedSearchTerm)
       );
       setSearchResults(results);
     } else {
@@ -29,6 +38,7 @@ function SearchPanel({ isOpen, onClose, onSelectIdol }) {
       <div className="p-4">
         <div className="relative">
           <input
+            ref={inputRef}
             type="text"
             placeholder="아이돌 또는 소속사 검색..."
             value={searchTerm}
