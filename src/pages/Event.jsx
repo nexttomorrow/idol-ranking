@@ -63,13 +63,13 @@ function Event() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-200">
-      <div className="container mx-auto px-4 py-20">
-        <div className="mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+    <div className="min-h-screen bg-[#0f1115]">
+      <div className="container mx-auto px-4 pt-32 pb-20">
+        <div className="mb-16">
+          <h1 className="text-4xl font-bold text-white mb-4">
             이벤트
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-400">
+          <p className="text-lg text-gray-400">
             다양한 K-POP 아티스트의 특별한 이벤트에 참여해보세요
           </p>
         </div>

@@ -1,7 +1,7 @@
 export const eventData = [
   {
     id: 1,
-    thumbnail: '/images/event-1.jpg',
+    thumbnail: 'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F67%2F58%2F84%2F675884551ea53c5636e213ba4ae3724b.png&type=sc960_832',
     title: 'BTS 팬미팅 이벤트',
     content: '새 앨범 발매 기념 특별 팬미팅에 참여할 수 있는 기회!',
     author: 'HYBE Labels',
