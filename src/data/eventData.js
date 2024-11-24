@@ -13,7 +13,7 @@ export const eventData = [
   },
   {
     id: 2,
-    thumbnail: '/images/event-2.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F609%2F2019%2F09%2F22%2F201909221548031910_3_20190922154957589.jpg&type=sc960_832',
     title: 'BLACKPINK 온라인 팬미팅',
     content: '전 세계 팬들과 함께하는 특별한 온라인 팬미팅',
     author: 'YG Entertainment',
@@ -25,8 +25,8 @@ export const eventData = [
   },
   {
     id: 3,
-    thumbnail: '/images/event-3.jpg',
-    title: 'TWICE 앨범 사인회',
+    thumbnail: 'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn.liveen.co.kr%2Fnews%2Fphoto%2F201808%2F228351_279731_39.jpg&type=sc960_832',
+    title: '트와이스 팬미팅',
     content: '신규 미니앨범 발매 기념 팬사인회',
     author: 'JYP Entertainment',
     publishedAt: '2024-03-22',
@@ -37,7 +37,7 @@ export const eventData = [
   },
   {
     id: 4,
-    thumbnail: '/images/event-4.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjlfMTU4%2FMDAxNjY3MDQzODExNzAw.Ykgzvklw2VVqYBOhaqRme9Fm3Bb5gBEJge5Nj6WP2qsg.3i2JSOQ0rv5KHwdmY8mhsBTcnh8lFPc8yIU6_CEvfNog.JPEG.dedoeoh%2FFgKhedPakAIVuEh.jpeg&type=sc960_832',
     title: 'NewJeans 팬클럽 이벤트',
     content: '첫 번째 팬클럽 모집 기념 특별 이벤트',
     author: 'HYBE Labels',
@@ -49,7 +49,7 @@ export const eventData = [
   },
   {
     id: 5,
-    thumbnail: '/images/event-5.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F003%2F2022%2F04%2F05%2FNISI20220405_0018670383_web_20220405164118_20220405164210053.jpg&type=sc960_832',
     title: 'IVE 쇼케이스 참여 이벤트',
     content: '새 싱글 발매 기념 쇼케이스 참여 기회',
     author: 'Starship Entertainment',
@@ -61,7 +61,7 @@ export const eventData = [
   },
   {
     id: 6,
-    thumbnail: '/images/event-6.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5712%2F2023%2F05%2F01%2F0000170467_002_20230501082802618.jpg&type=sc960_832',
     title: 'LE SSERAFIM 팬사인회',
     content: '정규앨범 발매 기념 오프라인 팬사인회',
     author: 'HYBE Labels',
@@ -73,7 +73,7 @@ export const eventData = [
   },
   {
     id: 7,
-    thumbnail: '/images/event-7.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F445%2F2024%2F11%2F17%2F0000258615_001_20241117192708951.jpg&type=sc960_832',
     title: 'aespa 팬미팅 이벤트',
     content: '데뷔 3주년 기념 스페셜 팬미팅',
     author: 'SM Entertainment',
@@ -85,7 +85,7 @@ export const eventData = [
   },
   {
     id: 8,
-    thumbnail: '/images/event-8.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMDFfMjU4%2FMDAxNzI3Nzg0OTUxMjMx.M2FrMDVDyQsdVBrEGnH5N_uU4oHVNpR3iG-mFMiIBdUg.Z2MCkvZ28IZiWZ1AGaJ-16kKU2jEJEzI9En8u0MdLt8g.PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2024-10-01_%25BF%25C0%25C8%25C4_9.14.58.png&type=sc960_832',
     title: 'SEVENTEEN 콘서트 티켓팅 이벤트',
     content: '월드투어 서울공연 우선예매 기회',
     author: 'HYBE Labels',
@@ -97,7 +97,7 @@ export const eventData = [
   },
   {
     id: 9,
-    thumbnail: '/images/event-9.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5525%2F2021%2F03%2F27%2F0000253708_001_20210327015107519.jpg&type=sc960_832',
     title: 'Stray Kids 팬클럽 이벤트',
     content: '2기 팬클럽 가입자 특별 혜택',
     author: 'JYP Entertainment',
@@ -109,7 +109,7 @@ export const eventData = [
   },
   {
     id: 10,
-    thumbnail: '/images/event-10.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMjhfMjM4%2FMDAxNjQ4NDc4MTEzNDM3.rKQrjGWhcI3koJ__GhD5lI_2VXElxebxgXOifbbZIF4g.QWp5QMsPYO3qtmUmgwnSmgnNz__Af3hqp6-XU-1p9Fcg.JPEG.ksy1327%2F277244648_518168133003313_2392570924313309385_n.jpeg&type=sc960_832',
     title: 'NCT DREAM 사인CD 이벤트',
     content: '새 앨범 구매자 대상 사인CD 증정 이벤트',
     author: 'SM Entertainment', 
@@ -121,7 +121,7 @@ export const eventData = [
   },
   {
     id: 11,
-    thumbnail: '/images/event-11.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F112%2F2023%2F06%2F08%2F202306081440276215119_20230608144419_01_20230608150305514.jpg&type=sc960_832',
     title: 'EXO 컴백 기념 영상통화 이벤트',
     content: '신규 앨범 발매 기념 랜덤 영상통화 이벤트',
     author: 'SM Entertainment',
@@ -133,7 +133,7 @@ export const eventData = [
   },
   {
     id: 12,
-    thumbnail: '/images/event-12.jpg',
+    thumbnail: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5239%2F2017%2F07%2F06%2F0000102232_001_20170706120958113.jpg&type=sc960_832',
     title: 'Red Velvet 미니 팬미팅',
     content: '새 앨범 발매 기념 소규모 팬미팅 참여 기회',
     author: 'SM Entertainment',
